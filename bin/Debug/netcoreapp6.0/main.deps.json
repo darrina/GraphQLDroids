@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "main/1.0.0": {
+        "dependencies": {
+          "GraphQL": "7.6.1",
+          "GraphQL.SystemTextJson": "7.6.1"
+        },
+        "runtime": {
+          "main.dll": {}
+        }
+      },
+      "GraphQL/7.6.1": {
+        "dependencies": {
+          "GraphQL-Parser": "8.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/GraphQL.dll": {
+            "assemblyVersion": "7.6.1.0",
+            "fileVersion": "7.6.1.0"
+          }
+        }
+      },
+      "GraphQL-Parser/8.4.0": {
+        "runtime": {
+          "lib/net6.0/GraphQLParser.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.0.0"
+          }
+        }
+      },
+      "GraphQL.SystemTextJson/7.6.1": {
+        "dependencies": {
+          "GraphQL": "7.6.1"
+        },
+        "runtime": {
+          "lib/net6.0/GraphQL.SystemTextJson.dll": {
+            "assemblyVersion": "7.6.1.0",
+            "fileVersion": "7.6.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "main/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphQL/7.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-16UOuR01WG0APHArtNkenSsOivRxZ3Ikdf4zG4GLlvnYuB9g/1MGI2HlZJ3ufa8rVUpdSS/WGpI9ifi779OBjQ==",
+      "path": "graphql/7.6.1",
+      "hashPath": "graphql.7.6.1.nupkg.sha512"
+    },
+    "GraphQL-Parser/8.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FwDgsaOPEoa7sAACRl9wjQl+J8Z0x9C8HcBWRCzRVRvrvBZsBLX8fnL+6pDnUhn0audU05Cjod4uqJe4cB9OFw==",
+      "path": "graphql-parser/8.4.0",
+      "hashPath": "graphql-parser.8.4.0.nupkg.sha512"
+    },
+    "GraphQL.SystemTextJson/7.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GOqnWldO8QUQjbMddz/5UvkrTscCRzWVhXJT/Qx/VQLfwmrkDUAnOreA/jjLemcifrB2PaPC7K5eMLiRynwdYA==",
+      "path": "graphql.systemtextjson/7.6.1",
+      "hashPath": "graphql.systemtextjson.7.6.1.nupkg.sha512"
+    }
+  }
+}

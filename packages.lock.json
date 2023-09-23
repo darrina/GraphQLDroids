@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net6.0": {
+      "GraphQL": {
+        "type": "Direct",
+        "requested": "[7.6.1, )",
+        "resolved": "7.6.1",
+        "contentHash": "16UOuR01WG0APHArtNkenSsOivRxZ3Ikdf4zG4GLlvnYuB9g/1MGI2HlZJ3ufa8rVUpdSS/WGpI9ifi779OBjQ==",
+        "dependencies": {
+          "GraphQL-Parser": "8.4.0"
+        }
+      },
+      "GraphQL.SystemTextJson": {
+        "type": "Direct",
+        "requested": "[7.6.1, )",
+        "resolved": "7.6.1",
+        "contentHash": "GOqnWldO8QUQjbMddz/5UvkrTscCRzWVhXJT/Qx/VQLfwmrkDUAnOreA/jjLemcifrB2PaPC7K5eMLiRynwdYA==",
+        "dependencies": {
+          "GraphQL": "[7.6.1, 8.0.0)"
+        }
+      },
+      "GraphQL-Parser": {
+        "type": "Transitive",
+        "resolved": "8.4.0",
+        "contentHash": "FwDgsaOPEoa7sAACRl9wjQl+J8Z0x9C8HcBWRCzRVRvrvBZsBLX8fnL+6pDnUhn0audU05Cjod4uqJe4cB9OFw=="
+      }
+    }
+  }
+}
